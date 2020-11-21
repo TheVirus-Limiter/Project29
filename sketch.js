@@ -11,8 +11,8 @@ function setup() {
   world = engine.world;
   Engine.run(engine);
   ground = new Ground(450,390,900,20);
-  holder1 = new Holder(390,300,250,10);
-  holder2 = new Holder(700,200,200,10);
+  holder1 = new holder(390,300,250,10);
+  holder2 = new holder(700,200,200,10);
 
  block1 = new Block(300,275,30,40);
  block2 = new Block(330,275,30,40);
